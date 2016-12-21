@@ -49,6 +49,10 @@
     <TypeScriptCompile Include="app.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <TypeScriptCompile Include="models\Instance.ts" />
+    <TypeScriptCompile Include="models\Model.ts" />
+    <TypeScriptCompile Include="models\Profile.ts" />
+    <TypeScriptCompile Include="models\User.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="typings\bluebird\bluebird-2.0.d.ts" />
     <TypeScriptCompile Include="typings\body-parser\body-parser.d.ts" />
@@ -70,6 +74,7 @@
     <TypeScriptCompile Include="typings\validator\validator.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="models\" />
     <Folder Include="typings\" />
     <Folder Include="typings\angularjs\" />
     <Folder Include="typings\bluebird\" />
