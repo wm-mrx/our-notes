@@ -8,3 +8,4 @@ public/scripts/*.js.map
 public/scripts/controllers/*.js.map
 node_modules
 env.json
+bin
